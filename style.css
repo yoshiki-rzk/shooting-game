@@ -1,0 +1,87 @@
+.btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.05em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.btn:active {
+  /*押したとき*/
+  border: solid 1px #03A9F4;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+body {
+  background-color: black;
+}
+
+#toscore {
+  visibility:hidden;
+  color: #FFF;
+}
+
+a{
+	top:-9px;
+}
+
+a.back{
+	top:30px;
+}
+
+
+a.btn{
+    color:#FFF;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+a.my-class1{
+    color:#FFF;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+a.my-class2{
+    color:#FFF;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+a.my-class3{
+    color:#FFF;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+a.my-class2:before {content:"\021e6 \021e7 \021e8 \021e9";}
+
+#Table{
+  font-size: 150%;
+  margin: auto;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #000000;
+  border-bottom: 10px dashed white;
+}
+
+
+
+body {
+  font-family:'MyFont';
+  font-size:200%;
+  background-color: #000000;
+  color:white;
+}
+
+
